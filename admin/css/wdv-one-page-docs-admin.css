@@ -1,0 +1,19 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .wdv-header img {
+ 	height: 100px;
+ 	margin: 5px 45%;
+ }
+
+ .wdv-header h3 {
+ 	margin: 5px;
+ 	display: block;
+ 	text-align: center;
+ } 
+
+ .class-app-shortcodes,
+ .class-app-shortcode {
+ 	display: none;
+ }

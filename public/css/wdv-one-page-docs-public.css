@@ -1,0 +1,117 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/*Shortcodes*/
+ .wdvdocs-shortcode-wrap ul.wdvdocs-docs-list li.wdvdocs-docs-single h3 {
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.wdvdocs-shortcode-wrap ul.wdvdocs-docs-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.wdvdocs-shortcode-wrap ul.wdvdocs-docs-list li.wdvdocs-docs-single .wdvdocs-doc-link {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    background-color: #f7f7f7;
+}
+
+.wdvdocs-docs-single {
+	width: 45%;
+	display: inline-block;
+	border: 1px solid #eee;
+	margin: 2%;
+  vertical-align:top;
+}
+.section {
+    padding: 8px 15px 8px 0;
+ }
+ul.wdvdocs-children,
+ul.single-shortcode,
+ul.sidepanel-list {
+    list-style: none;
+    padding-left: 0;
+}
+ul.sidepanel-list {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 25px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/*Shortcode*/
+.wdv-main {
+  margin-top: 20px;
+}
+.carrentdoc,
+li.add-child,
+li.add-article {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.wdvdoc-shortcode-wrap {
+    display: block;
+    position: relative;
+}
+.sidepanel  {
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.entry .entry-content .sidepanel .closebtn:hover, .entry .entry-content .sidepanel .closebtn {
+    text-decoration: none;
+}
+
+.sidepanel a:hover, .sidepanel a:visited {
+  color: #fff;
+}
+
+.sidepanel a.closebtn {
+  position: absolute;
+  text-decoration: none;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
